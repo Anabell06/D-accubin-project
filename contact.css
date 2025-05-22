@@ -1,0 +1,32 @@
+body{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.vector{
+    background-color: #006179;
+    width: 1440px;
+    height: 64px;
+    justify-content: space-between;
+}
+.vector-2{
+    padding: 10px;
+    width: 108.73px;
+    height: 48px;
+}
+.contact-1{
+    background-color:#006179;
+    width:1280px;
+    height: 209px;
+}
+.contact-2{
+    font-family: 'Alte Haas Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 96px;
+    text-align: center;
+    color: #FAE2D0;
+    line-height: 130%;
+
+}

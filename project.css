@@ -1,0 +1,101 @@
+body{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.pin{
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.step-1{
+    font-family: 'Alte Haas Grotesk', sans-serif;
+    font-weight: 500px;
+    font-size: 88px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #181818;
+
+}
+.step{
+    background-color: #f3f4f7;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: end;
+    align-items: end;
+    
+    max-width: 100%;
+    padding-right: 10px;
+}
+
+.project-manager{
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+}
+.step-2{
+    font-family: "Manrope", sansthth-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 140%;
+    width: 859px;
+    max-width: 100%;
+    text-align: justify;
+    padding-right: 20px;
+    letter-spacing: 0%;
+    padding: 5px;
+    padding-top: 0px;
+    margin-bottom: 0px; 
+
+    
+}
+.response{
+    font-family: 'Alte Haas Grotesk', sans-serif;
+    font-size: 32px;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+
+    
+.step-4{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.response-1{
+    width: 130%;
+    text-align: center;
+}
+.step-5{
+    margin-top: 0px;
+}
+.career{
+    color: #006179;
+}
+.footer{
+    background-color: #18191B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 0;
+    text-align:center;
+}
+.diver{
+    width: 80%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 4px;
+}
+.pure{
+    margin-bottom: 40px;
+
+}
