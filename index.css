@@ -3,7 +3,10 @@
   padding: 0;
   
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 html {
   font-family: "Manrope", sans-serif;
 }
@@ -544,7 +547,6 @@ a:hover {
   font-family:"Manrope", sans-serif ;
   font-size: 18px;
   justify-item: space-between;
-  
 }
 .para-7{
   font-family:"Manrope", sans-serif ;
@@ -811,6 +813,7 @@ padding-bottom: 24px;
   font-weight: 600;
   font-size: 70px;
   padding-top: 100px;
+  padding-left: 80px;
 }
 .trans-img{
   font-family: "Alte Haas Grotesk", sans-serif;
@@ -818,6 +821,132 @@ padding-bottom: 24px;
   font-size: 70px;
   width: 542px;
   height: 542px;
+  margin-left: 150px;
 }
+.sendsile-para-2{
+  font-family:"Manrope", sans-serif ;
+  font-size: 400px;
+  font-size: 18px;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+.challenge-1{
+  display: flex;
+  flex-direction:row;
+}
+.access-div{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 169px;
+  /* gap: 110px; */
+  /* justify-content: center; */
+  /* padding-left: 80px; */
+}
+.access-para{
+  margin-left: 80px;
+  border-top-style: solid;
+}
+.limited-para{
+  margin-left: 80px;
+  border-top-style: solid;
+  
+}
+.access-icon{
+  width: 10px;
+  height: 5px;
+  padding-top: 10px;
+padding-left: 40px;
+}
+.efficient-para{
+    margin-right: 80px;
+    border-top-style: solid;
+}
+.inner-access-div{
+  display: flex;
+  justify-content: space-between
+}
+.efficient-icon{
+  width: 10px;
+  height: 5px;
+  padding-top: 10px;
+  margin-right:80px;
+}
+.solution-section{
+  background-color: #dfdfe4;
+}
+.solution{
+  font-family: "Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 140%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.transform{
+  font-family:"Manrope", sans-serif ;
+  font-size: 300;
+  font-size: 18px;
+  text-align: center;
+
+}
+.wire-frame{
+  width: 1000px;
+  height: 500px;
+  justify-items: center;
+  padding-left: 120px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+.result-div{
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 125.1px;
+  margin-top: 45px;
+  
+}
+.result{
+  font-family: "Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 140%;
+  text-align: center;
+}
+.sendsile-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left:140px ;
+  padding-right: 140px;
+}
+.result-section{
+  background-color: #f6f6f6;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
+.transform-div{
+  padding-top: 127px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 127px;
+}
+.freshness{
+  font-family: "Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: #006179;
+  padding-bottom: 20px;
+  padding-top: 32px;
+
+}
+
+
+  
+
+
+
 
 
