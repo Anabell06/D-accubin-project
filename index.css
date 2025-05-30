@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
 a{
   text-decoration: none;
@@ -49,17 +50,34 @@ main{
     max-width: 1400px;
   }
 }
+.real-section{
+  width: 100%;
+  /* height:739px; */
+}
+
+
 
 .basic-2 {
   background-color: #006179;
   width: 100%;
+  
 }
+.basic{
+  /* width: 108.73px; */
+  /* height: 48px; */
+  /* padding-top: 32px; */
+   /* padding-bottom: 32px; */
+   /* padding-left: 80px; */
+  }
 
 .header-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
   border-bottom: 1px solid #fae2d0;
+  /* height: 64px; */
+  padding-left: 80px;
+  
 }
 
 .hero-title-text {
@@ -72,24 +90,31 @@ main{
   padding-top: 122px;
   padding-bottom: 88px;
   gap: 24px;
+  width: 100%;
+  /* height: 500px; */
 }
 
 .title {
   font-family: "Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
 
-  font-size: 70px;
-
+  font-size: 96px;
+  line-height: 130px;
   letter-spacing: 0%;
   line-height: 130%;
   text-align: center;
+  max-width:70%;
 }
 .title_2 {
-  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
   width: 100%;
   max-width: 600px;
+  margin-top: 24px;
 }
 .pure {
   font-family: "Alte Haas Grotesk", sans-serif;
@@ -99,15 +124,20 @@ main{
   letter-spacing: 0%;
   width: 100%;
   text-align: left;
+  padding-left: 60px;
+  padding-top: 64px;
+
 }
 .pure_2 {
+  font-family: "Manrope", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0%;
-  width: 100%;
+  max-width: 50%;
+  margin-top: 40px;
 
-  max-width: 600px;
+  /* max-width: 600px; */
   text-align: left;
 }
 
@@ -117,6 +147,8 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  width: 1440px;
+  /* height: 739px; */
 }
 .pure_3 {
   display: flex;
@@ -125,6 +157,9 @@ main{
 }
 .pin {
   width: 100px;
+  /* height: 104px; */
+  padding-bottom: 12px;
+
 }
 .pin-2 {
   display: flex;
@@ -132,12 +167,18 @@ main{
   width: 100%;
   grid-template-columns: auto auto auto;
   padding-bottom: 82px;
+  padding-top: 99px;
+  padding-left: 150px;
+  padding-right: 151px;
 }
 
 .grid-container{
   width: 100%;
   display: flex;
   flex-direction: column;
+  /* margin-left: 150px;
+  margin-bottom: 82px;
+  margin-top: 99px; */
 }
 
 .grid-container img {
@@ -149,6 +190,29 @@ main{
   font-weight: 500;
   font-size: 24px;
 }
+
+.pin-4{
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  /* margin-bottom: 32px;
+   */
+}
+.pin-6{
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 32px;
+  padding-left: 79px;
+}
+
+.pin-7{
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 79px;
+
+}
 .set {
   font-family: "Alte Haas Grotesk", sans-serif;
   font-weight: 500;
@@ -157,15 +221,32 @@ main{
   letter-spacing: 0%;
   text-align: center;
 }
+  
 .set-2 {
   background-image: url("background.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   gap: 72px;
-  width: 100%;
+  /* width: 100%; */
+
+
+  
+  
+  /* max-width: 100%; */
+}
+.improve{
+  font-family:"Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-left: 79px;
+}
+.improve-3{
+  margin-top: 104px;
 }
 .fine {
   font-family: "Alte Haas Grotesk", sans-serif;
@@ -174,22 +255,41 @@ main{
   font-size: 64px;
   line-height: 140%;
   letter-spacing: 4%;
+  padding-left: 105px;
+  padding: 74px;
+  
+  
 }
 .fine_2 {
   color: #006179;
 }
 .fine_3 {
-  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-left: 60px;
   letter-spacing: 0%;
-  width: 859px;
-  height: 120px;
   max-width: 100%;
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 70px;
+  
 }
 .fine-4 {
   font-size: 38px;
   font-weight: 800;
   color: #006179;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 105px;
+  text-align: center;
+}
+.pin-5{
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 105px;
+
 }
 .fine-5 {
   width: 100%;
@@ -199,12 +299,30 @@ main{
   flex-direction: column;
   margin-top: 120px;
   gap: 120px;
+  
+
+  
 }
 
 .fine-innerdiv {
-  padding: 74px;
   background-color: white;
+  /* padding-bottom: 209px; */
+  margin-left: 80px;
+  margin-right: 80px;
 }
+/* .career-title-text{
+  background-image: url("image\ 1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #006179;
+  color: #fae2d0;
+  padding-top: 122px;
+  padding-bottom: 88px;
+  gap: 24px;
+  width: 100%;
+  height: 588px;
+} */
 
 .dot {
   font-weight: 700;
@@ -212,10 +330,14 @@ main{
   line-height: 150%;
   font-size: 48px;
   font-weight: 700;
-  padding-bottom: 16px;
+  
+  /* padding-bottom: 16px; */
 }
 .what-do-we-do-div {
   width: 100%;
+}
+.ready-div{
+  padding-top: 23px;
 }
 
 .button-2 {
@@ -224,7 +346,9 @@ main{
   line-height: 150%;
   color: #006179;
   padding: 5px;
+  border: solid 1px #006179;
   border-radius: 5px;
+  
   margin-bottom: 122.1px;
   margin-top: 16px;
   margin-left: 80px;
@@ -253,6 +377,12 @@ main{
 .pin-4 {
   font-weight: 400;
   font-size: 14px;
+}
+.pin-8 {
+  font-weight: 400;
+  font-size: 14px;
+  /* padding-right:50px ; */
+  
 }
 .pin-5 {
   font-weight: 500;
@@ -293,9 +423,9 @@ main{
 }
 
 .fine-6 {
-  display: flex;
-  flex-direction: row;
-  gap: 60px;
+  display: flex;  
+  flex-direction:row;
+  /* gap: 60px; */
   align-items: center;
 }
 .copy {
@@ -304,8 +434,8 @@ main{
 .inner-footer {
   background-color: #18191b;
   width: 100%;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; p */
 }
 .footer-2 {
   display: grid;
@@ -363,10 +493,12 @@ a:hover {
   font-family: 'Alte Haas Grotesk', sans-serif;
                                               
   font-weight: 500;
-  font-size: 60px;
+  font-size: 88px;
   line-height: 140%;
-  padding: 30px;
-  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-bottom: 48px;
+  padding-top: 64px;
+
 }
 
 .work-2{
@@ -394,7 +526,7 @@ a:hover {
   padding-bottom: 53px;
   margin-top: 36px;}
 
-  .button-2{
+  /* .button-2{
     
     font-family: "Manrope", sans-serif;
     font-weight: 600;
@@ -404,12 +536,14 @@ a:hover {
     padding: 5px;
     margin: 30px;
     border-radius: 5px;
-    margin-left: 80px;
+    margin-left: 80px; */
+    
 }
 
 .pin-down{
-  padding: 10px;
-  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-left: 80px;
 }
 
 .step-1{
@@ -422,7 +556,7 @@ a:hover {
 
 }
 .step{
-  background-color: #dadde3;
+  background-color: #f0f1f3;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -430,35 +564,52 @@ a:hover {
   align-items: end;
   width: 100%;
   max-width: 100%;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 
 .project-manager{
-  width: 100%;
+  width: 95%;
   text-align: left;
-  margin: 0px;
+  /* margin: 0px; */
+  padding-left: 80px;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 .step-2{
   font-family: "Manrope", sans-serif;
   font-weight: 400px;
-  font-size: 14px;
-  line-height: 140%;
+  font-size: 18px;
+  line-height: 150%;
   width: 859px;
   max-width: 100%;
   text-align: justify;
-  padding-right: 20px;
+  padding-right: 80px;
   letter-spacing: 0%;
-  padding: 5px;
-  padding-top: 0px;
-  margin-bottom: 0px; 
+  /* padding: 5px; */
+  /* padding-top: 0px;
+  margin-bottom: 0px;  */
 
   
+}
+
+.step-3{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 140%;
+    width: 859px;
+    max-width: 100%;
+    text-align: justify;
+    padding-right: 80px;
+    letter-spacing: 0%;
+    padding-bottom: 154.1px;
 }
 .response{
   font-family: 'Alte Haas Grotesk', sans-serif;
   font-size: 32px;
-  margin: 5px;
+  margin-top: 24px;
   padding: 0;
+  
 }
 
 
@@ -505,6 +656,8 @@ a:hover {
   font-family: "Manrope", sans-serif;
   font-size: 12px;
   font-weight: 400;
+  
+  color: #9F9F9F;
 }
 .diverse-1{
   padding-bottom: 40px;
@@ -532,22 +685,85 @@ a:hover {
   border-bottom: 1px solid #D3D3D3;
   line-height: 150%;
   height:27px;
-  padding-top: 20px;
+  padding-top: 48px;
   padding-bottom: 16px;
 }
 .para-6{
   font-family:"Manrope", sans-serif ;
-  font-size:medium;
+  font-size:18px;
   font-weight: 500;
   line-height: 150%;
   padding-bottom: 16px;
-  padding-top: 24px;
+  padding-top: 48px;
+}
+.project{
+  font-family: 'Alte Haas Grotesk', sans-serif;
+                                              
+  font-weight: 500;
+  font-size: 40px;
+  padding: 10px;
+}
+.project-2{
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 846px;
+  line-height: 150%;
+  max-width: 600;
+  padding: 10px;
+  /* padding-bottom: 70px; */
+  /* border-bottom: 1px solid rgb(202, 201, 201); */
+  
+}
+.project-button{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  background-color: #006179;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  margin-top: 16px;
+  margin-bottom: 48px;
+  border: solid 1px #006179;
+  border-radius: 5px;
+  /* border-bottom: 2px solid rgb(202, 201, 201); */
+}
+.project-div{
+  border-bottom: 1px solid rgb(202, 201, 201);
 }
 .box-1{
   font-family:"Manrope", sans-serif ;
   font-size: 18px;
   justify-item: space-between;
+  gap: px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
+.box-2{
+  font-family:"Manrope", sans-serif ;
+  font-size: 18px;
+  justify-item: space-between;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.box-3{
+  nt-family:"Manrope", sans-serif ;
+  font-size: 18px;
+  justify-item: space-between;
+  padding-bottom: 48px;display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+
 .para-7{
   font-family:"Manrope", sans-serif ;
   font-size: 400px;
@@ -558,7 +774,7 @@ a:hover {
 .button-3{
   width: 187px;
   height: 43px;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   
   padding-right: 16px;
   padding-bottom: 8px;
@@ -572,9 +788,14 @@ a:hover {
 .grid-3{
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: cornflowerblue;
+  background-color: #ffffff;
   width: 100%;
+  height: 520px;
+  justify-content: center;
 
+}
+.value-div{
+  margin-top: 100px;
 }
 .main{
   font-family:'Alte Haas Grotesk', sans-serif; 
@@ -582,16 +803,21 @@ a:hover {
   font-weight: 600;
   padding: 40px;
   padding-top: 100px;
+  
 }
 .corner{
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  /* height: 70px; */
+  padding-left: 33px;
+  padding-top: 50px;
 }
 .main-1{
   font-family: 'Alte Haas Grotesk', sans-serif; 
   font-weight: 600;
   font-size: 64px;
-  padding-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+
 }
 .inner-section{
   
@@ -602,22 +828,27 @@ a:hover {
 }
 .who-are-you{
   width: 100%;
-  height: 420px;
-  border-right: 1px solid black ;
+  /* height: 420px; */
+  border-right: 1px solid #E1E1E1 ;
 }
 .corner-1{
   font-family: "Manrope", sans-serif ;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  width: 342px;
-  height: 42px;
+  border-radius: 6px;
+  width: 90%;
+  height: 243px;
+  padding-left: 33px;
+  color: #2E2E2E;
+  padding-top: 24px;
 
 }
 .who-are-you-1{
   font-family: 'Alte Haas Grotesk', sans-serif; 
   font-size: 30px;
   font-weight: 600;
+  padding-left: 33px;
 }
 .value{
   font-family:'Alte Haas Grotesk', sans-serif;
@@ -636,6 +867,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 140%;
+padding-bottom: 56px;
 /* identical to box height, or 42px */
 
 color: #181818;
@@ -651,6 +883,10 @@ width: 100%;
     grid-column: span 2 / span 2;
 }
 .rectangle{
+  font-family:"Manrope", sans-serif ;
+  font-size: 400px;
+  font-size: 18px;
+  color: #2E2E2E;
   height: auto;
   grid-column: span 3 / span 3;
 }
@@ -688,6 +924,7 @@ width: 100%;
   background-color: #E6E7EB;
   /* justify-content: space-between; */
   width: 100%;
+  height: 1500px;
   position: relative;
   flex-direction: column;
   gap: 30px;
@@ -698,8 +935,8 @@ width: 100%;
 .deeper-image{
   position: absolute;
  bottom: 0px;
-left: -30px;
-width: 200px;
+/* left: -30px; */
+
 }
 .value_5{
 font-family:'Alte Haas Grotesk', sans-serif;
@@ -723,6 +960,7 @@ padding-bottom: 24px;
   font-family:"Manrope", sans-serif ;
   font-size: 400px;
   font-size: 18px;
+  padding-right: 91px;
 }
 .expert-div{
   margin-left: 71px;
@@ -751,8 +989,9 @@ padding-bottom: 24px;
 }
 .send-1{
   font-family: "Alte Haas Grotesk", sans-serif;
+  font-weight: 600;
 
-  font-size: 70px;
+  font-size: 96px;
 
   letter-spacing: 0%;
   line-height: 130%;
@@ -783,6 +1022,8 @@ padding-bottom: 24px;
   padding-top: 122px;
   padding-bottom: 88px;
   gap: 24px;
+  width: 1440px;
+  height: 400px;
 }
 .mockup{
   width: 400px;
@@ -799,14 +1040,23 @@ padding-bottom: 24px;
   font-size: 400px;
   font-size: 18px;
   margin-left: 24px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   
 }
 .view{
   color: #006179;
-  width: 115px;
-  height: 28px;
-  margin-left: 44px;
+  /* width: 115px; */
+  /* height: 28px; */
+  /* margin-left: 44px; */
+  position: relative;
+  /* margin-left: 200px; */
+}
+.view-div{
+  display: flex;
+  position: absolute;
+  margin-left: -100px;
+
+  justify-items: left;
 }
 .challenge{
   font-family: "Alte Haas Grotesk", sans-serif;
@@ -886,18 +1136,22 @@ padding-left: 40px;
 .transform{
   font-family:"Manrope", sans-serif ;
   font-size: 300;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
+  /* align-items: center; */
+  width:100%;
 
 }
 .wire-frame{
-  width: 1000px;
-  height: 500px;
-  justify-items: center;
-  padding-left: 120px;
-  padding-right: 100px;
+  width: 1280px;
+  height: 800px;
+  justify-items: center ;
   padding-bottom: 80px;
   padding-top: 50px;
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /* width: 50%;  */
 }
 .result-div{
   background-color: white;
