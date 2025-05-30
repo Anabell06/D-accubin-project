@@ -84,7 +84,7 @@ main{
   background-image: url("image\ 1.png");
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   background-color: #006179;
   color: #fae2d0;
   padding-top: 122px;
@@ -536,9 +536,9 @@ a:hover {
     padding: 5px;
     margin: 30px;
     border-radius: 5px;
-    margin-left: 80px; */
+    margin-left: 80px;} */
     
-}
+
 
 .pin-down{
   padding-top: 30px;
@@ -1026,8 +1026,8 @@ padding-bottom: 24px;
   height: 400px;
 }
 .mockup{
-  width: 400px;
-  height: 300px;
+  width: 604px;
+  height: 426px;
   
 }
 .send-3{
@@ -1045,18 +1045,18 @@ padding-bottom: 24px;
 }
 .view{
   color: #006179;
-  /* width: 115px; */
-  /* height: 28px; */
-  /* margin-left: 44px; */
-  position: relative;
-  /* margin-left: 200px; */
+  margin-left: 80px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 6px;
+  width: 179px;
+
+  
 }
 .view-div{
-  display: flex;
-  position: absolute;
-  margin-left: -100px;
+  
+  position: relative;
+  
 
-  justify-items: left;
 }
 .challenge{
   font-family: "Alte Haas Grotesk", sans-serif;
@@ -1124,6 +1124,10 @@ padding-left: 40px;
 .solution-section{
   background-color: #dfdfe4;
 }
+.solution-section-2{
+  background-color: #F1FCFF;
+  
+}
 .solution{
   font-family: "Alte Haas Grotesk", sans-serif;
   font-weight: 600;
@@ -1140,6 +1144,8 @@ padding-left: 40px;
   text-align: center;
   /* align-items: center; */
   width:100%;
+  margin: auto;
+  max-width: 1067px;
 
 }
 .wire-frame{
@@ -1155,7 +1161,7 @@ padding-left: 40px;
 }
 .result-div{
   background-color: white;
-  border-radius: 6px;
+  border-radius: 50px;
   margin-bottom: 125.1px;
   margin-top: 45px;
   
@@ -1179,6 +1185,7 @@ padding-left: 40px;
   padding-right: 80px;
   padding-top: 24px;
   padding-bottom: 24px;
+  
 
 }
 .transform-div{
@@ -1186,6 +1193,7 @@ padding-left: 40px;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 127px;
+  width:1280px;
 }
 .freshness{
   font-family: "Alte Haas Grotesk", sans-serif;
